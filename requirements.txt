@@ -9,6 +9,3 @@ ffmpeg
 imageio-ffmpeg
 soundfile
 webrtcvad-wheels>=2.0.14
-torch
-torchvision
-torchaudio

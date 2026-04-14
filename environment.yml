@@ -7,9 +7,6 @@ dependencies:
   - python=3.10
   - pip
   - ffmpeg
-  - pytorch
-  - torchvision
-  - torchaudio
   - numpy
   - pandas
   - librosa
