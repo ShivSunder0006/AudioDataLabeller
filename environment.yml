@@ -1,0 +1,21 @@
+name: hindi_audio_dataset
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ffmpeg
+  - pytorch
+  - torchvision
+  - torchaudio
+  - numpy
+  - pandas
+  - librosa
+  - pydub
+  - ffmpeg-python
+  - gradio>=4.44,<6
+  - soundfile
+  - pip:
+      - webrtcvad-wheels>=2.0.14

@@ -1,0 +1,22 @@
+# Local data
+dataset/
+temp_clips/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Environment
+.env
+.ipynb_checkpoints/
+count.ipynb
+count.py
+
+# System
+.DS_Store
+Thumbs.db
