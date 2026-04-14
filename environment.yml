@@ -15,7 +15,8 @@ dependencies:
   - librosa
   - pydub
   - ffmpeg-python
-  - gradio>=4.44,<6
+  - gradio>=5.0.0
+  - huggingface_hub>=0.25.0
   - soundfile
   - pip:
       - webrtcvad-wheels>=2.0.14
