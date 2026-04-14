@@ -2,7 +2,7 @@
 title: Audio Dataset Labeler
 emoji: 🎙️
 colorFrom: indigo
-colorTo: cyan
+colorTo: blue
 sdk: gradio
 sdk_version: 4.44.0
 python_version: "3.10"
