@@ -9,12 +9,10 @@ ensure_project_directories()
 # Build and launch the UI
 # Setting server_name="0.0.0.0" is required for HF Spaces
 demo = build_demo()
-# Build trigger: V2
-demo.queue().launch(
+# Force HF compatibility
+demo.queue()
+demo.launch(
+    server_name="0.0.0.0",
     server_port=7860,
-    show_error=True,
-    allowed_paths=[
-        str(Path(DATASET_DIR).resolve()),
-        str(Path(TEMP_CLIPS_DIR).resolve()),
-    ],
+    show_error=True
 )
