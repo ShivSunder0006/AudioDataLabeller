@@ -12,6 +12,7 @@ venv/
 ENV/
 
 # Environment
+environment.yml
 .env
 .ipynb_checkpoints/
 count.ipynb
