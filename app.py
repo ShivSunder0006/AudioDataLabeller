@@ -1,3 +1,4 @@
+# Build trigger: Force refresh after dependency sync
 from pathlib import Path
 from src.ui import build_demo
 from src.utils import DATASET_DIR, TEMP_CLIPS_DIR, ensure_project_directories
